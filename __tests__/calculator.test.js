@@ -14,7 +14,7 @@ describe('Calculator', () => {
   //only passes on wednesdays
   test('should show the current day of the week', () => {
     let calculator = new Calculator("2022-05-16");
-    expect(calculator.getDay()).toEqual("Monday");
+    expect(calculator.getDayName()).toEqual("Monday");
   });
 
   //only passes on february 2
